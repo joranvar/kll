@@ -24,20 +24,20 @@ U"5"         + U["LShift","RShift"] : '1';
 U"Esc"                              : '=';
 U"Esc"       + U["LShift","RShift"] : '9';
 # Right
-U"Function6"                        : '*';
-U"Function6" + U["LShift","RShift"] : '0';
-U"6"                                : ')';
-U"6"         + U["LShift","RShift"] : '2';
-U"7"                                : '+';
-U"7"         + U["LShift","RShift"] : '4';
-U"8"                                : ']';
-U"8"         + U["LShift","RShift"] : '6';
-U"9"                                : '!';
-U"9"         + U["LShift","RShift"] : '8';
-U"0"                                : '#';
-U"0"         + U["LShift","RShift"] : '`';
-U"Minus"                            : U"Esc";
-#U"Minus"     + U["LShift","RShift"] : U"Esc";
+U"Function6"                        : U"Esc";
+#U"Function6" + U["LShift","RShift"] : U"Esc";
+U"6"                                : '*';
+U"6"         + U["LShift","RShift"] : '0';
+U"7"                                : ')';
+U"7"         + U["LShift","RShift"] : '2';
+U"8"                                : '+';
+U"8"         + U["LShift","RShift"] : '4';
+U"9"                                : ']';
+U"9"         + U["LShift","RShift"] : '6';
+U"0"                                : '!';
+U"0"         + U["LShift","RShift"] : '8';
+U"Minus"                            : '#';
+U"Minus"     + U["LShift","RShift"] : '`';
 
 ### Top-Middle Row
 # Left
@@ -116,7 +116,7 @@ U"Function2"                        : U"Tab";
 #U"Function2" + U["LShift","RShift"] : U"Tab";
 # Right
 U"Function7"                        : U"Backslash";
-U"Function7" + U["LShift","RShift"] : '|';
+#U"Function7" + U["LShift","RShift"] : '|';
 U"N"                                : 'b';
 U"N"         + U["LShift","RShift"] : 'B';
 U"M"                                : 'm';
