@@ -17,7 +17,7 @@ U"4"         : '3';
 U"5"         : '1';
 U"Esc"       : '9';
 # Right
-U"Function6" : U"Esc";
+U"Function6" : U"LShift" + U"Esc";
 U"6"         : '0';
 U"7"         : '2';
 U"8"         : '4';
@@ -27,13 +27,13 @@ U"Minus"     : '`';
 
 ### Top-Middle Row
 # Left
-U"Backslash" : U"PrintScreen";
+U"Backslash" : U"LShift" + U"PrintScreen";
 U"Q"         : ':';
 U"W"         : '<';
 U"E"         : '>';
 U"R"         : 'P';
 U"T"         : 'Y';
-U"Function1" : U"Backspace";
+U"Function1" : U"LShift" + U"Backspace";
 # Right
 U"LBrace"    : '^';
 U"Y"         : 'F';
@@ -45,7 +45,7 @@ U"RBrace"    : '?';
 
 ### Middle Row
 # Left
-U"Tab"       : U"Pause";
+U"Tab"       : U"LShift" + U"Pause";
 U"A"         : 'A';
 U"S"         : 'O';
 U"D"         : 'E';
@@ -67,7 +67,7 @@ U"X"         : 'Q';
 U"C"         : 'J';
 U"V"         : 'K';
 U"B"         : 'X';
-U"Function2" : U"Tab";
+U"Function2" : U"LShift" + U"Tab";
 # Right
 U"Function7" : '|';
 U"N"         : 'B';
@@ -76,3 +76,37 @@ U"Comma"     : 'W';
 U"Period"    : 'V';
 U"Slash"     : 'Z';
 U"RShift"    : U"Function3";# (shift)
+
+### Bottom Row
+# Left
+U"LGui"      : U"Function1";# (functions);
+U"Backtick"  : U"Function2";# (numpad);
+U"Function3" : U"Function4";# (qwerty);
+#U"LShift" + U"Function4";
+U"Function5" : U"LShift" + U"LGui";
+# Right
+U"Left"      : U"LShift" + U"RGui";
+U"Down"      : U"LShift" + U"Left";
+U"Up"        : U"LShift" + U"Down";
+U"Right"     : U"LShift" + U"Up";
+U"RGui"      : U"LShift" + U"Right";
+
+### Thumb Cluster Left
+# Top
+U"LCtrl"     : U"LShift" + U"Home";
+U"LAlt"      : U"LShift" + U"End";
+# Bottom
+U"Backspace" : U"LShift" + U"Enter";
+U"Delete"    : U"LShift" + U"LCtrl";
+U"Home"      : U"LShift" + U"Delete";
+U"End"       : U"LShift" + U"LAlt";
+
+### Thumb Cluster Right
+# Top
+U"RAlt"      : U"LShift" + U"PageUp";
+U"RCtrl"     : U"LShift" + U"PageDown";
+# Bottom
+U"PageUp"    : U"LShift" + U"Insert";
+U"PageDown"  : U"LShift" + U"RAlt";
+U"Enter"     : U"LShift" + U"RCtrl";
+U"Space"     : U"LShift" + U"Space";
