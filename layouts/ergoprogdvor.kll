@@ -1,0 +1,165 @@
+Name = MDErgo1 Programmer Dvorak;
+Version = 0.1;
+Author = "joranvar (Bart Post) 2016";
+KLL = 0.3c;
+
+# Modified Date
+Date = 2016-01-15;
+
+
+### Top Row
+# Left
+U"Equals"                           : '$';
+U"Equals"    + U["LShift","RShift"] : '~';
+U"1"                                : '&';
+U"1"         + U["LShift","RShift"] : '%';
+U"2"                                : '[';
+U"2"         + U["LShift","RShift"] : '7';
+U"3"                                : '{';
+U"3"         + U["LShift","RShift"] : '5';
+U"4"                                : '}';
+U"4"         + U["LShift","RShift"] : '3';
+U"5"                                : '{';
+U"5"         + U["LShift","RShift"] : '1';
+U"Esc"                              : '=';
+U"Esc"       + U["LShift","RShift"] : '9';
+# Right
+U"Function6"                        : '*';
+U"Function6" + U["LShift","RShift"] : '0';
+U"6"                                : ')';
+U"6"         + U["LShift","RShift"] : '2';
+U"7"                                : '+';
+U"7"         + U["LShift","RShift"] : '4';
+U"8"                                : ']';
+U"8"         + U["LShift","RShift"] : '6';
+U"9"                                : '!';
+U"9"         + U["LShift","RShift"] : '8';
+U"0"                                : '#';
+U"0"         + U["LShift","RShift"] : '`';
+U"Minus"                            : U"Esc";
+#U"Minus"     + U["LShift","RShift"] : U"Esc";
+
+### Top-Middle Row
+# Left
+U"Backslash"                        : U"PrintScreen";
+#U"Backslash" + U["LShift","RShift"] : U"PrintScreen";
+U"Q"                                : ';';
+U"Q"         + U["LShift","RShift"] : ':';
+U"W"                                : ',';
+U"W"         + U["LShift","RShift"] : '<';
+U"E"                                : '.';
+U"E"         + U["LShift","RShift"] : '>';
+U"R"                                : 'p';
+U"R"         + U["LShift","RShift"] : 'P';
+U"T"                                : 'y';
+U"T"         + U["LShift","RShift"] : 'Y';
+U"Function1"                        : U"Backspace";
+#U"Function1" + U["LShift","RShift"] : U"Backspace";
+# Right
+U"LBrace"                           : '@';
+U"LBrace"    + U["LShift","RShift"] : '^';
+U"Y"                                : 'f';
+U"Y"         + U["LShift","RShift"] : 'F';
+U"U"                                : 'g';
+U"U"         + U["LShift","RShift"] : 'G';
+U"I"                                : 'c';
+U"I"         + U["LShift","RShift"] : 'C';
+U"O"                                : 'r';
+U"O"         + U["LShift","RShift"] : 'R';
+U"P"                                : 'l';
+U"P"         + U["LShift","RShift"] : 'L';
+U"RBrace"                           : '/';
+U"RBrace"    + U["LShift","RShift"] : '?';
+
+### Middle Row
+# Left
+U"Tab"                              : U"Pause";
+#U"Tab"       + U["LShift","RShift"] : U"Pause";
+U"A"                                : 'a';
+U"A"         + U["LShift","RShift"] : 'A';
+U"S"                                : 'o';
+U"S"         + U["LShift","RShift"] : 'O';
+U"D"                                : 'e';
+U"D"         + U["LShift","RShift"] : 'E';
+U"F"                                : 'u';
+U"F"         + U["LShift","RShift"] : 'U';
+U"G"                                : 'i';
+U"G"         + U["LShift","RShift"] : 'I';
+# Right
+U"H"                                : 'd';
+U"H"         + U["LShift","RShift"] : 'D';
+U"J"                                : 'h';
+U"J"         + U["LShift","RShift"] : 'H';
+U"K"                                : 't';
+U"K"         + U["LShift","RShift"] : 'T';
+U"L"                                : 'n';
+U"L"         + U["LShift","RShift"] : 'N';
+U"Semicolon"                        : 's';
+U"Semicolon" + U["LShift","RShift"] : 'S';
+U"Quote"                            : '-';
+U"Quote"     + U["LShift","RShift"] : '_';
+
+### Bottom-Middle Row
+# Left
+#U"LShift"                           : U"LShift";
+U"Z"                                : U"Quote";
+U"Z"         + U["LShift","RShift"] : '"';
+U"X"                                : 'q';
+U"X"         + U["LShift","RShift"] : 'Q';
+U"C"                                : 'j';
+U"C"         + U["LShift","RShift"] : 'J';
+U"V"                                : 'k';
+U"V"         + U["LShift","RShift"] : 'K';
+U"B"                                : 'x';
+U"B"         + U["LShift","RShift"] : 'X';
+U"Function2"                        : U"Tab";
+#U"Function2" + U["LShift","RShift"] : U"Tab";
+# Right
+U"Function7"                        : U"Backslash";
+U"Function7" + U["LShift","RShift"] : '|';
+U"N"                                : 'b';
+U"N"         + U["LShift","RShift"] : 'B';
+U"M"                                : 'm';
+U"M"         + U["LShift","RShift"] : 'M';
+U"Comma"                            : 'w';
+U"Comma"     + U["LShift","RShift"] : 'W';
+U"Period"                           : 'v';
+U"Period"    + U["LShift","RShift"] : 'V';
+U"Slash"                            : 'z';
+U"Slash"     + U["LShift","RShift"] : 'Z';
+#U"RShift"                           : U"RShift";
+
+### Bottom Row
+# Left
+U"LGui"      : layerLock( 1 );# (functions);
+U"Backtick"  : layerLock( 2 );# (numpad);
+U"Function3" : layerLock( 3 );# (qwerty);
+#U"Function4";
+U"Function5" : U"LGui";
+# Right
+U"Left"      : U"RGui";
+U"Down"      : U"Left";
+U"Up"        : U"Down";
+U"Right"     : U"Up";
+U"RGui"      : U"Right";
+
+### Thumb Cluster Left
+# Top
+U"LCtrl"     : U"Home";
+U"LAlt"      : U"End";
+# Bottom
+U"Backspace" : U"Enter";
+U"Delete"    : U"LCtrl";
+U"Home"      : U"Delete";
+U"End"       : U"LAlt";
+
+### Thumb Cluster Right
+# Top
+U"RAlt"      : U"PageUp";
+U"RCtrl"     : U"PageDown";
+# Bottom
+U"PageUp"    : U"Insert";
+U"PageDown"  : U"RAlt";
+U"Enter"     : U"RCtrl";
+#U"Space"     : U"Space";
+
