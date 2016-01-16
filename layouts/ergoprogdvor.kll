@@ -131,9 +131,9 @@ U"Slash"     + U["LShift","RShift"] : 'Z';
 
 ### Bottom Row
 # Left
-U"LGui"      : layerLock( 1 );# (functions);
-U"Backtick"  : layerLock( 2 );# (numpad);
-U"Function3" : layerLock( 3 );# (qwerty);
+U"LGui"      : U"Function1";# (functions);
+U"Backtick"  : U"Function2";# (numpad);
+U"Function3" : U"Function3";# (qwerty);
 #U"Function4";
 U"Function5" : U"LGui";
 # Right
