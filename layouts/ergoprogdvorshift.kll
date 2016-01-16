@@ -1,0 +1,78 @@
+Name = MDErgo1 Programmer Dvorak Shift;
+Version = 0.1;
+Author = "joranvar (Bart Post) 2016";
+KLL = 0.3c;
+
+# Modified Date
+Date = 2016-01-15;
+
+
+### Top Row
+# Left
+U"Equals"    : '~';
+U"1"         : '%';
+U"2"         : '7';
+U"3"         : '5';
+U"4"         : '3';
+U"5"         : '1';
+U"Esc"       : '9';
+# Right
+U"Function6" : U"Esc";
+U"6"         : '0';
+U"7"         : '2';
+U"8"         : '4';
+U"9"         : '6';
+U"0"         : '8';
+U"Minus"     : '`';
+
+### Top-Middle Row
+# Left
+U"Backslash" : U"PrintScreen";
+U"Q"         : ':';
+U"W"         : '<';
+U"E"         : '>';
+U"R"         : 'P';
+U"T"         : 'Y';
+U"Function1" : U"Backspace";
+# Right
+U"LBrace"    : '^';
+U"Y"         : 'F';
+U"U"         : 'G';
+U"I"         : 'C';
+U"O"         : 'R';
+U"P"         : 'L';
+U"RBrace"    : '?';
+
+### Middle Row
+# Left
+U"Tab"       : U"Pause";
+U"A"         : 'A';
+U"S"         : 'O';
+U"D"         : 'E';
+U"F"         : 'U';
+U"G"         : 'I';
+# Right
+U"H"         : 'D';
+U"J"         : 'H';
+U"K"         : 'T';
+U"L"         : 'N';
+U"Semicolon" : 'S';
+U"Quote"     : '_';
+
+### Bottom-Middle Row
+# Left
+U"LShift"    : U"Function3";# (shift)
+U"Z"         : '"';
+U"X"         : 'Q';
+U"C"         : 'J';
+U"V"         : 'K';
+U"B"         : 'X';
+U"Function2" : U"Tab";
+# Right
+U"Function7" : '|';
+U"N"         : 'B';
+U"M"         : 'M';
+U"Comma"     : 'W';
+U"Period"    : 'V';
+U"Slash"     : 'Z';
+U"RShift"    : U"Function3";# (shift)
