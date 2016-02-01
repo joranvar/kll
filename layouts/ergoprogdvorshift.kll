@@ -83,9 +83,9 @@ U"LGui"      : U"Function1";# (functions);
 U"Backtick"  : U"Function2";# (numpad);
 U"Function3" : U"Function4";# (qwerty);
 #U"LShift" + U"Function4";
-U"Function5" : U"LShift" + U"LGui";
+U"Function5" : U"LShift" + U"LAlt";
 # Right
-U"Left"      : U"LShift" + U"RGui";
+U"Left"      : U"LShift" + U"RAlt";
 U"Down"      : U"LShift" + U"Left";
 U"Up"        : U"LShift" + U"Down";
 U"Right"     : U"LShift" + U"Up";
@@ -99,7 +99,7 @@ U"LAlt"      : U"LShift" + U"End";
 U"Backspace" : U"LShift" + U"Enter";
 U"Delete"    : U"LShift" + U"LCtrl";
 U"Home"      : U"LShift" + U"Delete";
-U"End"       : U"LShift" + U"LAlt";
+U"End"       : U"LShift" + U"LGui";
 
 ### Thumb Cluster Right
 # Top
@@ -107,6 +107,6 @@ U"RAlt"      : U"LShift" + U"PageUp";
 U"RCtrl"     : U"LShift" + U"PageDown";
 # Bottom
 U"PageUp"    : U"LShift" + U"Insert";
-U"PageDown"  : U"LShift" + U"RAlt";
+U"PageDown"  : U"LShift" + U"RGui";
 U"Enter"     : U"LShift" + U"RCtrl";
 U"Space"     : U"LShift" + U"Space";
